@@ -12,7 +12,7 @@ router.get("/", function(req,res){
 router.get("/details", function(req,resa){
     var cpath = req.query.cpath;
     var options = {
-        host: 'careerpathwebapplication.herokuapp.com/careerpathwebservice.herokuapp.com/',
+        host: 'careerpathwebservice.herokuapp.com/',
         port: 8080,
         path: '/cources/' + cpath,
         method: 'GET'
